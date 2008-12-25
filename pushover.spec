@@ -44,18 +44,20 @@ ki 1992-ben. Ebben a játékban egy hangyát irányítasz, amely szintek
 között sétál, amelyek létrákkal kapcsolódnak. A szinteken dominók
 vannak, amelyeket el kell dönteni megadott szabályok alapján.
 
-- Az összes dominónak el kell dőlnie, és egyik se törhet szét
-- Egy különleges dominónak utolsóként el kell eldőlnie, és ez a dominó
-  nyitja a kijárati ajtót, amin ha kimégy, teljesíted a szintet
+- Az összes dominót érinteni kell, és egyik se törhet szét
+- Egy különleges dominónak ('trigger') utolsóként el kell eldőlnie, és
+  ez a dominó nyitja a kijárati ajtót, amin ha kimégy, teljesíted a
+  szintet
 - A dominókat tetszőlegesen átrendezheted, kivéve az ajtónyitót. Nem
-  rakhatsz dominókat az ajtók elé, kivéve eltűnő dominókat
-- Csak egyszer indíthatod el a láncreakciót a kezdő dominó
+  rakhatsz dominókat a kijárati ajtó elé, kivéve eltűnő dominókat
+- Csak egyszer indíthatod el a láncreakciót egy kezdő dominó
   eldöntésével
-- Ezeket egy megadott időn belül kell teljesítened (amelynek normál
+- Ezeket egy megadott időn belül kell teljesítened (amely normál
   esetben bőven elég)
-- 10 különböző dominó van, amelyek máshogy viselkednek, ha meglökik.
-  Egyikük eldől, másikuk nem, némelyik vár egy kicsit, mielőtt elbillen,
-  némelyik megemelkedik, némelyik addig dől, amíg akadályba nem ütközik
+- 10 különböző dominó van, amelyek mind máshogy viselkednek, ha
+  meglökik. Egyikük eldől, másikuk nem, némelyik vár egy kicsit, mielőtt
+  elbillen, némelyik megemelkedik, némelyik addig dől, amíg akadályba
+  nem ütközik
 - Egy súgó van a játékban, és egy bevezető pálya is, amely megmutatja,
   hogyan működnek a dominók
 
