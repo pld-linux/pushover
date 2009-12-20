@@ -1,12 +1,12 @@
 Summary:	Pushover is a fun puzzle game
 Summary(hu.UTF-8):	Pushover egy vicces kirakós játék
 Name:		pushover
-Version:	0.0.1
+Version:	0.0.2
 Release:	1
 License:	GPL v3
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/pushover/%{name}-%{version}.tar.gz
-# Source0-md5:	aeb0f0927f596623c5a1ea9cc27220e0
+# Source0-md5:	b0b6b584a57db0ca6ec69647fba67369
 URL:		http://pushover.sourceforge.net/
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
@@ -82,10 +82,12 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 %{__rm} -rf $RPM_BUILD_ROOT%{_docdir}/pushover/readme.txt
 
+%{find_lang} %{name}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS readme.txt
 %attr(755,root,root) %{_bindir}/pushover
