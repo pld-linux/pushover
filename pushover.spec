@@ -10,7 +10,14 @@ Source0:	http://dl.sourceforge.net/pushover/%{name}-%{version}.tar.gz
 URL:		http://pushover.sourceforge.net/
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	gettext-devel
+BuildRequires:	libpng-devel
+BuildRequires:	libstdc++-devel
+BuildRequires:	libtool
 BuildRequires:	lua51-devel
+BuildRequires:	pkgconfig
 BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
