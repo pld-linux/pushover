@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=pushover
+Comment=A fun puzzle game
+Comment[hu]=Egy vicces kirakós játék
+Exec=pushover
+Terminal=false
+Type=Application
+Categories=Game;LogicGame
+# vi: encoding=utf-8
