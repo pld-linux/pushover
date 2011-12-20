@@ -2,7 +2,7 @@ Summary:	Pushover is a fun puzzle game
 Summary(hu.UTF-8):	Pushover egy vicces kirakós játék
 Name:		pushover
 Version:	0.0.3
-Release:	1
+Release:	2
 License:	GPL v3
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/pushover/%{name}-%{version}.tar.gz
