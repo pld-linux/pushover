@@ -13,7 +13,7 @@ BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libpng-devel
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
